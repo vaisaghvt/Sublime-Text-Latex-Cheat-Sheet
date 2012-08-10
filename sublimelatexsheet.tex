@@ -39,11 +39,11 @@
 % if using A4 paper. (This probably isn't strictly necessary.)
 % If using another size paper, use default 1cm margins.
 \ifthenelse{\lengthtest { \paperwidth = 11in}}
-	{ \geometry{top=.5in,left=.5in,right=.5in,bottom=.5in} }
-	{\ifthenelse{ \lengthtest{ \paperwidth = 297mm}}
-		{\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
-		{\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
-	}
+    { \geometry{top=.5in,left=.5in,right=.5in,bottom=.5in} }
+    {\ifthenelse{ \lengthtest{ \paperwidth = 297mm}}
+        {\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
+        {\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
+    }
 
 % Turn off header and footer
 \pagestyle{empty}
@@ -149,7 +149,7 @@
 \subsection{Miscellaneous commands}
 \begin{tabular}{p{1.1in}  p{3in}}
 \verb!F6!               & Spell-checker \\
-\verb!shift+F6!         & Next spelling mistake \\
+\verb!ctrl+F6!         & Next spelling mistake \\
 \verb!tab!              & Indent selected \\
 \verb!shift+tab!        & back indent selected \\
 \verb!ctrl+shift+p!     & Command Panel
@@ -185,7 +185,7 @@ There are lots of mistakes that you can make while writing your report. Except f
 \hline\hline %inserts double horizontal lines
 Expression                      & Purpose                                       & Convention \\
 \hline
-\verb![^~]\cite|[^~]\\ref!       & References or citations not preceded by ~     & Always use the \~ before \verb!\ref! or \verb!\cite! to get spacing right \\
+\verb![^~]\cite|[^~]\\ref!       & References or citations not preceded by \verb!~!     & Always use the \verb!~! before \verb!\ref! or \verb!\cite! to get spacing right \\
 \verb!([^C]|c)hapter~\\ref!       & Non-capitalised chapter references            & Makes sure all chapter references have chapter capitalized \\
 \verb!([^S]|s)ection~\\ref!      & Non-capitalized section references            & Makes sure all section references have section capitalized \\
 \verb!\\section|\\chapter!      & Sections or chapter headings                  & All excpet prepositions and articles capital \\
