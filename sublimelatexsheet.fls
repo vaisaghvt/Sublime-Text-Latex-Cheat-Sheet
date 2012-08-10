@@ -1,8 +1,8 @@
-PWD /Users/vaisaghvt/Dropbox/Tex/Shortcut keys
+PWD /Users/vaisaghvt/Dropbox/Tex/Sublime-Text-Latex-Cheat-Sheet
 INPUT /usr/local/texlive/2011/texmf.cnf
 INPUT /usr/local/texlive/2011/texmf/web2c/texmf.cnf
 INPUT /usr/local/texlive/2011/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/vaisaghvt/Dropbox/Tex/Shortcut keys/sublimelatexsheet.tex
+INPUT /Users/vaisaghvt/Dropbox/Tex/Sublime-Text-Latex-Cheat-Sheet/sublimelatexsheet.tex
 OUTPUT sublimelatexsheet.log
 INPUT /usr/local/texlive/2011/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2011/texmf-dist/tex/latex/base/article.cls
