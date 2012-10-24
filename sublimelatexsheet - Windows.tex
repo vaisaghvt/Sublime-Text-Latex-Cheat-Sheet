@@ -1,0 +1,248 @@
+\documentclass[12pt,landscape]{article}
+\usepackage{multicol}
+\usepackage{calc}
+\usepackage{ifthen}
+\usepackage{textcomp}
+
+\usepackage[landscape]{geometry}
+
+% To make this come out properly in landscape mode, do one of the following
+% 1.
+%  pdflatex latexsheet.tex
+%
+% 2.
+%  latex latexsheet.tex
+%  dvips -P pdf  -t landscape latexsheet.dvi
+%  ps2pdf latexsheet.ps
+
+
+% If you're reading this, be prepared for confusion.  Making this was
+% a learning experience for me, and it shows.  Much of the placement
+% was hacked in; if you make it better, let me know...
+
+
+% 2008-04
+% Changed page margin code to use the geometry package. Also added code for
+% conditional page margins, depending on paper size. Thanks to Uwe Ziegenhagen
+% for the suggestions.
+
+% 2006-08
+% Made changes based on suggestions from Gene Cooperman. <gene at ccs.neu.edu>
+
+
+% To Do:
+% \listoffigures \listoftables
+% \setcounter{secnumdepth}{0}
+
+
+% This sets page margins to .5 inch if using letter paper, and to 1cm
+% if using A4 paper. (This probably isn't strictly necessary.)
+% If using another size paper, use default 1cm margins.
+\ifthenelse{\lengthtest { \paperwidth = 11in}}
+    { \geometry{top=.5in,left=.5in,right=.5in,bottom=.5in} }
+    {\ifthenelse{ \lengthtest{ \paperwidth = 297mm}}
+        {\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
+        {\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
+    }
+
+% Turn off header and footer
+\pagestyle{empty}
+ 
+
+% Redefine section commands to use less space
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{0mm}%
+                                {-1ex plus -.5ex minus -.2ex}%
+                                {0.5ex plus .2ex}%x
+                                {\normalfont\large\bfseries}}
+\renewcommand{\subsection}{\@startsection{subsection}{2}{0mm}%
+                                {-1explus -.5ex minus -.2ex}%
+                                {0.5ex plus .2ex}%
+                                {\normalfont\normalsize\bfseries}}
+\renewcommand{\subsubsection}{\@startsection{subsubsection}{3}{0mm}%
+                                {-1ex plus -.5ex minus -.2ex}%
+                                {1ex plus .2ex}%
+                                {\normalfont\small\bfseries}}
+\makeatother
+
+% Define BibTeX command
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+% Don't print section numbers
+\setcounter{secnumdepth}{0}
+
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt plus 0.5ex}
+
+
+% -----------------------------------------------------------------------
+
+\begin{document}
+
+\raggedright
+\footnotesize
+
+\begin{center}
+     \Large{\textbf{\LaTeX\ Sublime Papers2 Cheat Sheet (For Windows)}} \\
+\end{center}
+
+\begin{multicols}{2}
+
+
+% multicol parameters
+% These lengths are set only within the two main columns
+%\setlength{\columnseprule}{0.25pt}
+\setlength{\premulticols}{1pt}
+\setlength{\postmulticols}{1pt}
+\setlength{\multicolsep}{1pt}
+\setlength{\columnsep}{2pt}
+
+
+\section{General Sublime ShortCuts}
+\subsection{General Document Shortcuts}
+\begin{tabular}{p{1.1in}  p{3in}}
+\verb!ctrl+n!            & New \\
+\verb!ctrl+shift+n!      & New Window \\
+\verb!ctrl+s!            & Save \\
+\verb!ctrl+shift+s!      & Save as \\
+\verb!ctrl+shift+t!      & Reopen last closed file \\
+\verb!ctrl+tab!         & Change Active Tab \\
+\verb!ctrl+1!            & Move to 1st tab $\ldots$ can work for other i\\
+\verb!ctrl+p!            & Move to a file chosen from list \\
+\verb!ctrl+alt++p!       & Open Project from recent list (if no papers installed)\\
+\verb!ctrl+F4!       & Close current file\\
+\verb!ctrl+w!       & Close Window
+\end{tabular}
+
+\subsection{View Options}
+\begin{tabular}{p{1.1in}  p{3in}}
+\verb!alt+shift+1!        & Normal one column layout \\
+\verb!alt+shift+2!        & Two column $\ldots$ upto 4 \\
+\verb!alt+shift+5!        & Grid view \\
+\verb!alt+shift+8/9!        & 2 or 3 row view \\
+\verb!F11!                  & Full screen view \\
+\verb!shift+F11!        & toggle distraction view\\
+\verb!ctrl+`!           & open console
+\end{tabular}
+
+\subsection{Move Cursor}
+\begin{tabular}{p{1.1in}  p{3in}}
+\verb!ctrl+alt+!$\uparrow$/ $\downarrow$            & Multi-cursor up (or down) \\
+\verb!ctrl+!$\rightarrow$/ $\leftarrow$           & Move to next or previous word \\
+\verb!alt+!$\rightarrow$/ $\leftarrow$           & Move to next or previous subword \\
+\verb!ctrl+g!                           & Move to line number\\
+\verb!ctrl+r!            & Goto particular section or label. S for section, L for label.\\
+\verb!ctrl+;!           & Goto first instance of the searched word\\
+\verb!ctrl+m! & Move to bracket \\
+\verb!ctrl+shift+[\]! & Fold and unfold code.\\
+
+\end{tabular}
+ 
+\subsection{Selecting and Finding}
+\begin{tabular}{p{1.1in}  p{3in}}
+\verb!ctrl+f!            & Find \\
+\verb!F3!               & Find next\\
+\verb!shift+F3!         & Find prev\\
+\verb!alt+enter!        & Select all from within find\\
+\verb!ctrl+h!            & Replace \\
+\verb!ctrl+shift+h!            & Replace next\\
+\verb!ctrl+shift+f!      & Find and replace in files \\
+\verb!F4!            & Find next \\
+\verb!shift+F4!      & Find previous \\
+\verb!ctrl+d!    & First time select word; Select this and next instance of word; Then select one more \ldots \\
+\verb!ctrl+l, ctrl+l!    & Select line \\
+\verb!ctrl+shift+space!            & Keep expanding scope\\
+\verb!ctrl+shift+m!      & Select whole bracket \\
+\verb!alt+r!        & toggle regex within find\\
+\verb!alt+w!        & toggle whole word within find\\
+\verb!alt+c!        & toggle case sensitivity within find
+
+
+\end{tabular}
+
+\subsection{Miscellaneous commands}
+\begin{tabular}{p{1.1in}  p{3in}}
+\verb!F6!               & Spell-checker \\
+\verb!ctrl+F6!         & Next spelling mistake \\
+\verb!ctrl+[/]!         & indent/ unindent \\
+\verb!tab!              & Indent selected \\
+\verb!shift+tab!        & back indent selected \\
+\verb!ctrl+shift+p!     & Command Panel \\
+\verb!ctrl+y!           & repeat and not just redo \\
+\verb!ctrl+u!           & soft undo \\
+
+\verb!ctrl+/!           & comment/uncomment \\
+\verb!ctrl+shift+d!     & duplicate line below\\
+\verb!ctrl+j!           & join with line below
+\end{tabular}
+
+\subsection{Edit commands}
+\label{Edit}
+\begin{tabular}{p{1.1in}  p{3in}}
+\verb!alt+q!               & Wrap selection (removes all new lines in selection) \\
+\verb!ctrl+k, ctrl+u!               & Upper case \\
+\verb!ctrl+k, ctrl+l!               & Lower case \\
+
+
+\end{tabular}
+
+\section{Latex-Tools and Latex related Short-cuts}
+\label{Latex}
+Write \verb!%!TEX root = root.tex
+\begin{tabular}{p{3in}  p{6in}}
+\verb!ctrl+b!           & Save and Build the tex files. \\
+\verb!ctrl+break!       & Kill all building. \\
+\verb!ctrl+space!       & Auto-complete for everything. \\
+\verb!\ref,ctrl+l,ctrl+space! & Keyword to be followed by autocomplete to get references to labels and stuff. \\
+\verb!double click!  & Inverse search from pdf. \\
+\verb!ctrl+l,t,f!       & Enable and disable focus to PDF. Needed for forward search and to change focus on build. \\
+\verb!ctrl+l,t,s!      & Toggle Forward Search on build. \\
+\verb!ctrl+l,t,?!      & Status of toggles \\
+\verb!ctrl+l,j!      & Forward Search from tex to pdf. \\
+\verb!ctrl+l,c!      & Turn word into command. \\
+\verb!ctrl+l,e!      & Turn word into environment. \\
+\verb!ctrl+l,ctrl+c!    & Turn selected text into body of a command. \\
+\verb!ctrl+l,ctrl+n!    & Turn selected text into body of an environment. \\
+\verb!ctrl+l,ctrl+e!    & Turn selected text into emphasis. \\
+\verb!ctrl+l,ctrl+b!    & Turn selected text into bold. \\
+\verb!ctrl+l,ctrl+u!    & Turn selected text into underlined text. \\
+\verb!\cite,ctrl+l,ctrl+space! & Citations opened from folder's bib file. \\ 
+\verb!tab!          & according to context does some awesome latex specific autocorrections. Go to command panel and scroll to bottom to see a quick summary\\
+\verb!ctrl+alt+p!        & Alternative to above, open Papers manuscripts
+\end{tabular}
+\end{multicols}
+\newpage
+\subsection{Some useful regexes}
+There are lots of mistakes that you can make while writing your report. Except for spelling mistakes the sublime text plugin doesn't find most of these.  Here are some of the things I used and the corrections to be made. I'm a rank beginner so any suggestions would be very welcome.
+\\
+\vspace{0.25in}
+\begin{tabular}{p{4in}  p{2.5in}  p{3in}}
+\hline\hline %inserts double horizontal lines
+Expression                      & Purpose                                       & Convention \\
+\hline
+\verb![^~]\\cite|[^~]\\ref!       & References or citations not preceded by \verb!~!     & Always use the \verb!~! before \verb!\ref! or \verb!\cite! to get spacing right \\
+\verb!chapter~\\ref!       & Non-capitalised chapter references            & Makes sure all chapter references have chapter capitalized \\
+\verb!section~\\ref!      & Non-capitalized section references            & Makes sure all section references have section capitalized \\
+\verb!\\section|\\chapter!      & Sections or chapter headings                  & All excpet prepositions and articles capital \\
+\verb!\\(sub)+section!          & All subsections, subsubsections, etc.         & Make Only first word capital…  only proper noun capitals in rest \\
+\verb! [\.,;]!                  & Punctuations with space before                & No spaces before punctuations \\
+\verb![\.,;][a-zA-Z]!           & Punctuations with word right after            & Spaces need after punctuations \\
+\verb!([\.] [a-z])|^[a-z]!      & Full stop followed by a lower case or lower case at start & Change to capital \\
+\verb! ( )+!                    & More than one space                           & Only one space. \\
+\verb!([ ]+|^)([a-zA-Z][a-zA-Z ]*)[^a-zA-Z0-9]+\2([ \.,;]+|$)! & Find repeated phrases or words & Delete repititions
+\end{tabular}
+\vspace{0.25in}
+
+Also, find instance of \verb!e.g., etc., i.e. and add a \\! after the final full stop if it is followed by a space. 
+This is to ensure that it is not typeset as if it is in the end of a sentence. Be careful not to add a \\ if it is followed by a comma or a full stop.
+
+
+\rule{0.3\linewidth}{0.25pt}
+\scriptsize
+
+Copyleft  \textcopyleft\ 2011 Vaisagh Viswanathan T
+
+
+\end{document}

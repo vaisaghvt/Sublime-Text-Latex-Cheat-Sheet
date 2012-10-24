@@ -85,7 +85,7 @@
 \footnotesize
 
 \begin{center}
-     \Large{\textbf{\LaTeX\ Sublime Papers2 Cheat Sheet}} \\
+     \Large{\textbf{\LaTeX\ Sublime Papers2 Cheat Sheet (For Mac)}} \\
 \end{center}
 
 \begin{multicols}{2}
@@ -106,74 +106,108 @@
 \verb!cmd+n!            & New \\
 \verb!cmd+shift+n!      & New Window \\
 \verb!cmd+s!            & Save \\
-\verb!cmd+alt+s!        & Save all \\
 \verb!cmd+shift+s!      & Save as \\
+\verb!cmd+shift+t!      & Reopen last closed file \\
 \verb!ctrl+tab!         & Change Active Tab \\
 \verb!cmd+1!            & Move to 1st tab $\ldots$ can work for other i\\
 \verb!cmd+p!            & Move to a file chosen from list \\
-\verb!cmd+ctrl+p!       & Open Project from recent list
+\verb!ctrl+cmd++p!       & Open Project from recent list (if no papers installed)\\
+\verb!cmd+w!       & Close current file\\
+\verb!cmd+shift+w!       & Close Window
 \end{tabular}
 
 \subsection{View Options}
 \begin{tabular}{p{1.1in}  p{3in}}
-\verb!cmd+opt+1!        & Normal one column layout \\
-\verb!cmd+opt+2!        & Two column $\ldots$ upto 4 \\
-\verb!cmd+opt+5!        & Grid view \\
-\verb!cmd+opt+shift+2!  & 2 Row view $\ldots$ upto 3
+\verb!cmd+alt+1!        & Normal one column layout \\
+\verb!cmd+alt+2!        & Two column $\ldots$ upto 4 \\
+\verb!cmd+alt+5!        & Grid view \\
+\verb!cmd+alt+shift+2/3!        & 2 or 3 row view \\
+\verb!cmd+ctrl+f!                  & Full screen view \\
+\verb!shift+cmd+ctrl+f!        & toggle distraction view\\
+\verb!ctrl+`!           & open console
 \end{tabular}
 
 \subsection{Move Cursor}
 \begin{tabular}{p{1.1in}  p{3in}}
-\verb!ctrl+shift+!$\uparrow$            & Mult`'i-cursor up (or down) \\
-\verb!ctrl/opt+!$\rightarrow$           & Move to next or previous word \\
-\verb!opt+!$\uparrow$                   & Page up / page down \\
-\verb!cmd+!$\rightarrow$                & Move to end of line or begining of line \\
-\verb!cmd+!$\uparrow$                   & Move to begining or end of document \\
+\verb!ctrl+shift+!$\uparrow$/ $\downarrow$            & Multi-cursor up (or down) \\
+\verb!alt+!$\rightarrow$/ $\leftarrow$           & Move to next or previous word \\
+\verb!ctrl+!$\rightarrow$/ $\leftarrow$           & Move to next or previous subword \\
 \verb!ctrl+g!                           & Move to line number\\
-\verb!cmd+alt+g!                        & Move to next instance of selected\\
-\verb!cmd+alt+shift+g!                  & Move to previous instance of selected
-\end{tabular}
+\verb!cmd+r!            & Goto particular section or label. S for section, L for label.\\
+\verb!ctrl+m! & Move to bracket \\
+\verb!cmd+alt+[\]! & Fold and unfold code.\\
 
+\end{tabular}
+ 
 \subsection{Selecting and Finding}
 \begin{tabular}{p{1.1in}  p{3in}}
 \verb!cmd+f!            & Find \\
-\verb!cmd+alt+f!        & Replace \\
-\verb!cmd+shift+f!      & Find and replace in scope \\
-\verb!cmd+g!            & Find next \\
-\verb!cmd+shift+g!      & Find previous \\
-\verb!cmd+l!            & Select line \\
-\verb!cmd+d!    & First time select word; Select this and next instance of word; Then select one more \ldots\\
-\verb!ctrl+shift+m!      & Select whole bracket 
+\verb!cmd+g!               & Find next\\
+\verb!cmd+shift+g!         & Find prev\\
+\verb!alt+enter!        & Select all from within find\\
+\verb!cmd+alt+f!            & Replace \\
+\verb!cmd+alt+e!            & Replace next\\
+\verb!cmd+shift+f!      & Find and replace in files \\
+\verb!F4!            & Find next \\
+\verb!shift+F4!      & Find previous \\
+\verb!cmd+d!    & First time select word; Select this and next instance of word; Then select one more \ldots \\
+\verb!cmd+shift+space!            & Keep expanding scope\\
+\verb!ctrl+shift+m!      & Select whole bracket \\
+\verb!cmd+alt+r!        & toggle regex within find\\
+\verb!cmd+alt+w!        & toggle whole word within find
+
+
 \end{tabular}
 
 \subsection{Miscellaneous commands}
 \begin{tabular}{p{1.1in}  p{3in}}
 \verb!F6!               & Spell-checker \\
 \verb!ctrl+F6!         & Next spelling mistake \\
+\verb!cmd+[/]!         & indent/ unindent \\
 \verb!tab!              & Indent selected \\
 \verb!shift+tab!        & back indent selected \\
-\verb!ctrl+shift+p!     & Command Panel
+\verb!cmd+shift+p!     & Command Panel \\
+\verb!cmd+y!           & repeat and not just redo \\
+\verb!cmd+u!           & soft undo \\
+
+\verb!cmd+/!           & comment/uncomment \\
+\verb!cmd+shift+d!     & duplicate line below\\
+\verb!cmd+j!           & join with line below
+\end{tabular}
+
+\subsection{Edit commands}
+\label{Edit}
+\begin{tabular}{p{1.1in}  p{3in}}
+\verb!cmd+alt+q!               & Wrap selection (removes all new lines in selection) \\
+\verb!cmd+k, cmd+u!               & Upper case \\
+\verb!cmd+k, cmd+l!               & Lower case \\
+
+
 \end{tabular}
 
 \section{Latex-Tools and Latex related Short-cuts}
+\label{Latex}
 Write \verb!%!TEX root = root.tex
-\begin{tabular}{p{1.1in}  p{3in}}
+\begin{tabular}{p{3in}  p{6in}}
+\verb!cmd+b!           & Save and Build the tex files. \\
+\verb!cmd+break!       & Kill all building. \\
 \verb!ctrl+space!       & Auto-complete for everything. \\
-\verb!ref_!             & Keyword to be followed by autocomplete to get references to labels and stuff. \\
+\verb!\ref,cmd+l,ctrl+space! & Keyword to be followed by autocomplete to get references to labels and stuff. \\
 \verb!cmd+shift+click!  & Inverse search from pdf. \\
-\verb!ctrl+cmd+f!       & Enable and disable focus to PDF. Needed for forward search and to change focus on build. \\
-\verb!cmd+shift+j!      & Forward Search from tex to pdf. \\
-\verb!cmd+r!            & Goto particular section or label. S for section, L for label.\\
-\verb!cmd+shift+j!      & Forward Search from tex to pdf. \\
-\verb!cmd+shift+]!      & Turn word into command. \\
-\verb!cmd+shift+[!      & Turn word into environment. \\
-\verb!alt+shift+w,c!    & Turn selected text into body of a command. \\
-\verb!alt+shift+w,n!    & Turn selected text into body of an environment. \\
-\verb!alt+shift+w,e!    & Turn selected text into emphasis. \\
-\verb!alt+shift+w,b!    & Turn selected text into bold. \\
-\verb!alt+shift+w,u!    & Turn selected text into underlined text. \\
-\verb!cmd+/!            & Comment out this line. \\
-\verb!ctrl+ctrl!        & Open Papers manuscripts
+\verb!cmd+l,t,f!       & Enable and disable focus to PDF. Needed for forward search and to change focus on build. \\
+\verb!cmd+l,t,s!      & Toggle Forward Search on build. \\
+\verb!cmd+l,t,?!      & Status of toggles \\
+\verb!cmd+l,j!      & Forward Search from tex to pdf. \\
+\verb!cmd+l,c!      & Turn word into command. \\
+\verb!cmd+l,e!      & Turn word into environment. \\
+\verb!cmd+l,cmd+c!    & Turn selected text into body of a command. \\
+\verb!cmd+l,cmd+n!    & Turn selected text into body of an environment. \\
+\verb!cmd+l,cmd+e!    & Turn selected text into emphasis. \\
+\verb!cmd+l,cmd+b!    & Turn selected text into bold. \\
+\verb!cmd+l,cmd+u!    & Turn selected text into underlined text. \\
+\verb!\cite,cmd+l,ctrl+space! & Citations opened from folder's bib file. \\ 
+\verb!tab!          & according to context does some awesome latex specific autocorrections. Go to command panel and scroll to bottom to see a quick summary\\
+\verb!ctrl+ctrl!        & Alternative to above, open Papers manuscripts
 \end{tabular}
 \end{multicols}
 \newpage

@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.24)  24 OCT 2012 17:13
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.24)  24 OCT 2012 20:23
 entering extended mode
-**E:/Sublime-Text-Latex-Cheat-Sheet/sublimelatexsheet.tex
-(E:/Sublime-Text-Latex-Cheat-Sheet/sublimelatexsheet.tex
+**E:/Sublime-Text-Latex-Cheat-Sheet/sublimelatexsheet*-*Windows.tex
+("E:/Sublime-Text-Latex-Cheat-Sheet/sublimelatexsheet - Windows.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -207,7 +207,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks15
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-(E:\Sublime-Text-Latex-Cheat-Sheet\sublimelatexsheet.aux)
+("E:\Sublime-Text-Latex-Cheat-Sheet\sublimelatexsheet - Windows.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
 LaTeX Font Info:    ... okay on input line 82.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
@@ -271,42 +271,360 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 105.
 
-Overfull \hbox (16.29782pt too wide) in paragraph at lines 163--163
-[][]\OT1/cmtt/m/n/10 cmd+shift+click (mac)| 
+Overfull \hbox (4.50183pt too wide) in paragraph at lines 156--156
+[][]\OT1/cmtt/m/n/10 ctrl+shift+space| 
  []
 
 
-Overfull \hbox (21.54778pt too wide) in paragraph at lines 164--164
-[][]\OT1/cmtt/m/n/10 double click (windows)| 
+Overfull \hbox (318.08pt too wide) in paragraph at lines 193--215
+[]  
  []
 
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Overfull \vbox (129.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (128.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (127.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (126.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (125.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (124.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (123.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (122.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (121.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (120.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (119.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (118.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (117.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (116.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (115.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (114.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (113.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (112.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (111.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (110.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (109.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (108.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (107.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (106.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (105.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (104.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (103.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (102.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (101.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (100.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (99.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (98.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (97.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (96.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (95.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (94.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (93.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (92.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (91.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (90.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (89.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (88.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (87.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (86.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (85.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (84.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (83.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (82.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (81.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (80.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (79.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (78.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (77.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (76.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (75.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (74.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (73.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (72.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (71.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (70.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (69.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (68.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (67.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (66.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (65.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (64.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (63.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (62.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (61.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (60.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (59.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (58.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (57.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (56.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (55.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (54.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (53.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (52.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (51.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (50.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (49.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (48.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (47.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (46.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (45.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (44.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (43.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (42.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (41.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (40.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (39.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (38.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (37.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (36.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (35.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (34.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (33.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (32.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (31.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (30.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (29.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (28.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (27.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (26.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (25.9861pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (24.9861pt too high) has occurred while \output is active []
+
+
+[2]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ¦ in font cmr10!
- [2]
-(E:\Sublime-Text-Latex-Cheat-Sheet\sublimelatexsheet.aux) ) 
+ [3] ("E:\Sublime-Text-Latex-Cheat-Sheet\sublimelatexsheet - Windows.aux") ) 
 Here is how much of TeX's memory you used:
- 1432 strings out of 494045
- 20655 string characters out of 3148380
- 108408 words of memory out of 3000000
- 4762 multiletter control sequences out of 15000+200000
+ 1434 strings out of 494045
+ 20768 string characters out of 3148380
+ 90422 words of memory out of 3000000
+ 4764 multiletter control sequences out of 15000+200000
  7490 words of font info for 27 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 23i,10n,19p,341b,417s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\vaisagh\A
-ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm0800.pk><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmtt10.pfb>
-Output written on sublimelatexsheet.pdf (2 pages, 86307 bytes).
+ 23i,10n,19p,351b,302s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C
+:\Users\vaisagh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcr
+m0800.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on "sublimelatexsheet - Windows.pdf" (3 pages, 89879 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
+ 41 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
