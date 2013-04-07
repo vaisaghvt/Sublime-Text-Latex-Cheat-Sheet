@@ -47,7 +47,7 @@
 
 % Turn off header and footer
 \pagestyle{empty}
- 
+
 
 % Redefine section commands to use less space
 \makeatletter
@@ -138,9 +138,11 @@
 \verb!cmd+alt+[\]! & Fold and unfold code.\\
 
 \end{tabular}
- 
+
 \subsection{Selecting and Finding}
 \begin{tabular}{p{1.1in}  p{3in}}
+
+\verb!cmd+i!            & Incremental Find \\
 \verb!cmd+f!            & Find \\
 \verb!cmd+g!               & Find next\\
 \verb!cmd+shift+g!         & Find prev\\
@@ -150,7 +152,8 @@
 \verb!cmd+shift+f!      & Find and replace in files \\
 \verb!F4!            & Find next \\
 \verb!shift+F4!      & Find previous \\
-\verb!cmd+d!    & First time select word; Select this and next instance of word; Then select one more \ldots \\
+\verb!cmd+d!    & First time select word; Select this and next instance of word; Then select one more \ldots . Simultaneous edit possible.\\
+\verb!ctrl+cmd+g!    & Select all instances of current word. Simultaneous edit possible.  \\
 \verb!cmd+shift+space!            & Keep expanding scope\\
 \verb!ctrl+shift+m!      & Select whole bracket \\
 \verb!cmd+alt+r!        & toggle regex within find\\
@@ -205,7 +208,7 @@ Write \verb!%!TEX root = root.tex
 \verb!cmd+l,cmd+e!    & Turn selected text into emphasis. \\
 \verb!cmd+l,cmd+b!    & Turn selected text into bold. \\
 \verb!cmd+l,cmd+u!    & Turn selected text into underlined text. \\
-\verb!\cite,cmd+l,ctrl+space! & Citations opened from folder's bib file. \\ 
+\verb!\cite,cmd+l,ctrl+space! & Citations opened from folder's bib file. \\
 \verb!tab!          & according to context does some awesome latex specific autocorrections. Go to command panel and scroll to bottom to see a quick summary\\
 \verb!ctrl+ctrl!        & Alternative to above, open Papers manuscripts
 \end{tabular}
@@ -232,7 +235,7 @@ Expression                      & Purpose                                       
 \end{tabular}
 \vspace{0.25in}
 
-Also, find instance of \verb!e.g., etc., i.e. and add a \\! after the final full stop if it is followed by a space. 
+Also, find instance of \verb!e.g., etc., i.e. and add a \\! after the final full stop if it is followed by a space.
 This is to ensure that it is not typeset as if it is in the end of a sentence. Be careful not to add a \\ if it is followed by a comma or a full stop.
 
 
